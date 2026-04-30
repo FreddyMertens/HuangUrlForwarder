@@ -33,16 +33,11 @@ body {
 }
 
 .logo {
-  width: 70px;
-  height: 70px;
+  width: 96px;
+  height: auto;
   margin: 0 auto 22px;
-  display: grid;
-  place-items: center;
-  border-radius: 22px;
-  background: linear-gradient(135deg, #386c45, #74b360);
-  color: white;
-  font-size: 34px;
-  font-weight: 800;
+  display: block;
+  border-radius: 16px;
   box-shadow: 0 18px 34px rgba(56, 108, 69, 0.28);
 }
 
