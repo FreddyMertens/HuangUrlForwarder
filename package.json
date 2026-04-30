@@ -1,0 +1,9 @@
+{
+  "name": "huang-url-forwarder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "check": "node -e \"require('fs').accessSync('index.html'); require('fs').accessSync('styles.css'); require('fs').accessSync('script.js'); console.log('Static forwarder files are present.');\""
+  }
+}
